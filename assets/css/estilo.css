@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Spotify';
+    src: url(../fonts/3.woff2);
+}
+
+@font-face {
+    font-family: 'Spotify2';
+    src: url(../fonts/2.woff2);
+}
+
+@font-face {
+    font-family: 'Spotify1';
+    src: url(../fonts/1.woff2);
+}
+
+* {
+
+    font-family: 'Spotify';
+}
+
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 32px 0px 32px 51px;
+    margin-bottom: 0px;
+    background: black;
+
+}
+
+header img {
+    height: 36px;
+    align-content: flex-end;
+}
+
+.oculto {
+    display: none;
+}
+
+.CajaExterior {
+    background-color: rgb(26, 23, 23);
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
+}
+
+.CajaPrincipal {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: normal;
+    max-width: 734px;
+    width: 100%;
+}
+
+.CajaPrincipal h1 {
+    text-align: center;
+    margin: 90px 0px 48px;
+    font-size: 3rem;
+}
+
+.CajaPrincipal ul {
+    list-style: none;
+    text-align: center;
+    margin: 2px;
+}
+
+.boton1 {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 8px;
+    border-radius: 500px;
+    border: 1px solid;
+    width: 100%;
+    height: 48px;
+    min-block-size: 48px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgGoog {
+    width: 30px;
+}
+
+.imgFace {
+    width: 45px;
+}
+
+.imgApple {
+    width: 30px;
+}
+
+.Boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Boton ul {
+    width: 334px;
+    font-size: 100px;
+}
+
+.lineas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.linea {
+    display: flex;
+    width: 550px;
+    background-color: rgb(56, 51, 51);
+    height: 1px;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1px;
+}
+
+.caja {
+    padding: 0px 0px 8px;
+    border: 0px;
+    margin-top: 8px;
+    font-family: Spotify;
+}
+
+.imgojo {
+    width: 25px;
+    transform: translateX(-5px);
+}
+
+.Contenedor {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 10px;
+}
+.formularioLogin {
+    width: 40%;
+}
+
+.Contenedor input {
+    width: 90%;
+    color: #fff;
+    background-color: transparent;
+    padding: 0 !important;
+}
+
+.Contenedor input:focus {
+    background-color: transparent !important;
+    box-shadow: none;
+    color: #fff;
+    border: none !important;
+    outline-offset: 0px !important;
+}
+
+.form-check-input{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.form-check-input:checked {
+    background-color: #1abc54;
+    border-color: #1abc54;
+    ;
+}
+
+.contrasena {
+    border: 0px solid;
+    border-color: rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: #121212;
+    font-family: 'Spotify2';
+}
+
+.recuerdame {
+    margin: 10px;
+    transform: translateX(-35%);
+}
+
+.iniciar {
+    border: 1px solid;
+    border-radius: 500px;
+    background-color: #1abc54;
+    color: #000000;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 8px 32px;
+    width: 260px;
+    height: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cont {
+    text-align: center;
+}
+
+.Letras {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Spotify1';
+}
